@@ -68,8 +68,8 @@ Preview locally: `python -m http.server 8417` in this folder, then open http://l
 
 ## Brand
 
-The mark is a baradari seen from above: twelve piers, three doors in each wall, and from a gold twelve-pointed star
-at the centre, twelve streams flowing out through every door. It comes from the Baradari of Kamran Mirza on the
+The mark is a bara-dari ("twelve doors": bara = twelve, dari = doors) seen from above: twelve piers, three doors in each wall, and from a gold twelve-pointed star
+at the centre, twelve streams flowing out through every door. It comes from the Bara-dari of Kamran Mirza on the
 Ravi in Lahore, a twelve-doored summer pavilion: air, water and ideas moving in every direction, unhindered.
 
 Everything is drawn in code, including the lettering (hand-built monoline capitals, so no font licence applies):

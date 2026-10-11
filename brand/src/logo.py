@@ -1,7 +1,7 @@
 """Twelve Doors Interactive: the logo, drawn in code (no fonts, so no font licences).
 
-The mark is the plan of a baradari, a pavilion with twelve doors (three in each wall), like Kamran Mirza's
-Baradari on the Ravi in Lahore (1540). Twelve piers frame the twelve doors; from a gold star at the heart
+The mark is the plan of a bara-dari ("twelve doors"), a pavilion with twelve doors (three in each wall), like Kamran Mirza's
+Bara-dari on the Ravi in Lahore (1540). Twelve piers frame the twelve doors; from a gold star at the heart
 (the idea), twelve streams of water and air flow out through every door, in all directions, unhindered.
 
 The wordmark is monoline geometric capitals, drawn as strokes.
@@ -70,7 +70,7 @@ def streams(r0=23.0, r1=91.0):
 
 
 def mark(sand=SAND, water=WATER, gold=GOLD, width=7.0):
-    """The baradari: twelve piers, twelve doors, and from the gold star at its heart (the idea) twelve streams
+    """The bara-dari: twelve piers, twelve doors, and from the gold star at its heart (the idea) twelve streams
     of water and air flow out through every door, in every direction, unhindered."""
     axis, between = streams()
     cap = 'fill="none" stroke-linecap="round"'
