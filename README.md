@@ -58,10 +58,8 @@ Preview locally: `python -m http.server 8417` in this folder, then open http://l
 - In the game: set `Consent.PolicyUrl` to `https://twelvedoorsinteractive.com/farmoff/privacy/` and
   `OnlineSwitch.Url` to `https://twelvedoorsinteractive.com/farmoff/online.json`, then rebuild.
 - Fill in `[LAUNCH DATE]` in `farmoff/privacy/index.html` on launch day.
-- **app-ads.txt:** once the AdMob account exists, AdMob gives you a line like
-  `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0`. Save it as `/app-ads.txt` in this repo and put
-  `https://twelvedoorsinteractive.com` as the **website** in the Play Console listing, or AdMob will limit ad
-  serving. (Not created yet, on purpose: a wrong one is worse than none.)
+- **app-ads.txt:** published with the AdMob publisher ID (pub-7351099896560940). Put `https://twelvedoorsinteractive.com`
+  as the **website** in the Play Console listing so AdMob can find it.
 - When the game is on Google Play, swap the "Coming soon" button on `/farmoff/` for the store link (and Google's
   official badge from https://play.google.com/intl/en_us/badges/ if you like; follow its brand rules).
 - Flip the online switch by editing `farmoff/online.json` and pushing: takes effect in about a minute.
