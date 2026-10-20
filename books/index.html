@@ -112,6 +112,7 @@
           <label class="visually-hidden" for="fp-email">Email address</label>
           <input id="fp-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
           <input type="hidden" name="source" value="books-page">
+          <input type="hidden" name="elapsed" value="0">
           <input class="visually-hidden" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
           <button class="button" type="submit">Send me the free pages</button>
           <label class="opt-in"><input type="checkbox" name="updates" value="yes"> Also tell me when new Adam &amp; Botty books come out</label>
@@ -137,6 +138,7 @@
 
   <script>
   (function () {
+    var loadedAt = Date.now();
     var form = document.getElementById('free-pages');
     var msg = form.querySelector('.signup-msg');
     form.addEventListener('submit', function (e) {
@@ -148,6 +150,7 @@
         window.location.href = 'mailto:hello@twelvedoorsinteractive.com?subject=Free%20Adam%20%26%20Botty%20pages&body=Please%20send%20me%20the%203%20free%20pages.';
         return;
       }
+      form.elapsed.value = String(Date.now() - loadedAt);  // the sign-up ignores instant (bot) submissions
       var button = form.querySelector('button');
       button.disabled = true;
       msg.textContent = 'Sending...';
