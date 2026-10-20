@@ -1,0 +1,54 @@
+/* ---------- Books page (loaded only by /books/, after site.css) ---------- */
+
+.book-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) 1.2fr;
+  gap: clamp(24px, 4vw, 48px);
+  align-items: start;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: clamp(20px, 4vw, 40px);
+}
+section.alt .book-card { background: var(--bg); }
+.book-card .cover { border-radius: 10px; box-shadow: var(--shadow); width: 100%; height: auto; }
+.book-card h3 { font-size: clamp(1.5rem, 3vw, 2rem); margin-top: 0; }
+.book-card .subtitle { color: var(--muted); font-size: 1.1rem; margin-top: -0.4em; }
+.book-card ul.highlights { padding-left: 1.2em; }
+.book-card ul.highlights li { margin-bottom: 0.4em; }
+.book-card .facts { color: var(--muted); font-size: 0.95rem; }
+@media (max-width: 760px) { .book-card { grid-template-columns: 1fr; } .book-card .cover { max-width: 320px; margin-inline: auto; } }
+
+.pages3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.pages3 figure { margin: 0; }
+.pages3 img { border-radius: 10px; box-shadow: var(--shadow); width: 100%; height: auto; background: #fff; }
+.pages3 figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 8px; }
+@media (max-width: 760px) { .pages3 { grid-template-columns: 1fr; max-width: 420px; margin-inline: auto; } }
+
+.series-next { display: flex; gap: 10px; flex-wrap: wrap; padding: 0; margin: 16px 0 0; list-style: none; }
+.series-next li {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px dashed var(--line);
+  color: var(--muted);
+  font-weight: 600;
+}
+.series-next li.now { border-style: solid; color: var(--text); background: color-mix(in srgb, var(--gold) 22%, transparent); }
+
+/* free pages sign-up */
+.signup { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; align-items: center; max-width: 560px; margin: 24px auto 0; }
+.signup input[type=email] {
+  flex: 1 1 260px;
+  font: inherit;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+}
+.signup input[type=email]:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+.signup .opt-in { flex-basis: 100%; color: var(--muted); font-size: 0.95rem; }
+.signup .signup-msg { flex-basis: 100%; margin: 0; min-height: 1.5em; font-weight: 600; }
+.small-print { color: var(--muted); font-size: 0.85rem; margin-top: 16px; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
