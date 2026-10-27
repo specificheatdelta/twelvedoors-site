@@ -182,6 +182,7 @@ h3 { font-size: 1.3rem; }
 .button.quiet { background: transparent; color: var(--text); box-shadow: inset 0 0 0 2px var(--line); }
 .button.soon { background: var(--deep); cursor: default; }
 .button.soon:hover { transform: none; }
+.button .store { width: 1.15em; height: 1.15em; flex: none; }
 
 /* ---------- sections ---------- */
 
