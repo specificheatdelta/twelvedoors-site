@@ -57,11 +57,11 @@ Preview locally: `python -m http.server 8417` in this folder, then open http://l
 
 - In the game: set `Consent.PolicyUrl` to `https://twelvedoorsinteractive.com/farmoff/privacy/` and
   `OnlineSwitch.Url` to `https://twelvedoorsinteractive.com/farmoff/online.json`, then rebuild.
-- Fill in `[LAUNCH DATE]` in `farmoff/privacy/index.html` on launch day.
+- Privacy policy effective date filled in (2 November 2026, the Google Play launch).
 - **app-ads.txt:** published with the AdMob publisher ID (pub-7351099896560940). Put `https://twelvedoorsinteractive.com`
   as the **website** in the Play Console listing so AdMob can find it.
-- When the game is on Google Play, swap the "Coming soon" button on `/farmoff/` for the store link (and Google's
-  official badge from https://play.google.com/intl/en_us/badges/ if you like; follow its brand rules).
+- Google Play button on `/farmoff/` links to the store (live 2026-11-02). When Apple approves, swap the App Store
+  "Coming soon" button the same way (https://apps.apple.com/app/id<ID>) and drop "coming soon to iPhone" on both pages.
 - Flip the online switch by editing `farmoff/online.json` and pushing: takes effect in about a minute.
 
 ## Brand
