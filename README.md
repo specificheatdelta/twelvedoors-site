@@ -60,8 +60,8 @@ Preview locally: `python -m http.server 8417` in this folder, then open http://l
 - Privacy policy effective date filled in (2 November 2026, the Google Play launch).
 - **app-ads.txt:** published with the AdMob publisher ID (pub-7351099896560940). Put `https://twelvedoorsinteractive.com`
   as the **website** in the Play Console listing so AdMob can find it.
-- Google Play button on `/farmoff/` links to the store (live 2026-11-02). When Apple approves, swap the App Store
-  "Coming soon" button the same way (https://apps.apple.com/app/id<ID>) and drop "coming soon to iPhone" on both pages.
+- Store buttons on `/farmoff/`: Google Play (live 2026-11-02) and the App Store (https://apps.apple.com/app/id6828527536,
+  released 2026-11-09); the home card says "out now on Google Play and the App Store".
 - Flip the online switch by editing `farmoff/online.json` and pushing: takes effect in about a minute.
 
 ## Brand
