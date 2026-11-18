@@ -8,6 +8,8 @@ The studio website for Twelve Doors Interactive: plain HTML and CSS, no build st
 | `/farmoff/` | FarmOff! game page: trailer, features, screenshots, support email |
 | `/farmoff/privacy/` | FarmOff! privacy policy (the URL for Google Play and the in-game Privacy button) |
 | `/farmoff/online.json` | The FarmOff! online off switch (see the game's Docs/OnlineSwitch.md) |
+| `/cannonhop/` | Cannon Hop game page (coming soon to Google Play and the App Store): features, screenshots, support email. When it launches, swap the two `button soon` spans for store links, as FarmOff! did |
+| `/cannonhop/privacy/` | Cannon Hop privacy policy |
 | `/privacy/` | Website privacy note |
 | `/404.html` | "This door leads nowhere" |
 | `brand/` | Logo files and the scripts that draw them (see Brand below) |
