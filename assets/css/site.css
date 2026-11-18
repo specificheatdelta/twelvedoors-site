@@ -250,7 +250,7 @@ section.alt .game-card { background: var(--bg); }
 
 .game-hero { text-align: center; padding-bottom: 32px; }
 .game-hero .icon { width: 120px; height: 120px; border-radius: 28px; margin: 0 auto 20px; box-shadow: var(--shadow); }
-.game-hero .actions { justify-content: center; }
+.game-hero .actions { justify-content: center; margin-inline: auto; }
 
 .trailer {
   border-radius: var(--radius);
