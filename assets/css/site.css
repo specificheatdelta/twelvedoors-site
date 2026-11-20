@@ -289,7 +289,7 @@ section.alt .feature { background: var(--bg); }
   gap: 20px;
 }
 .shots figure { margin: 0; }
-.shots img { border-radius: 14px; box-shadow: var(--shadow); width: 100%; height: auto; }
+.shots img, .shots video { display: block; border-radius: 14px; box-shadow: var(--shadow); width: 100%; height: auto; }
 .shots figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 8px; }
 @media (max-width: 700px) { .shots { grid-template-columns: 1fr; } }
 
